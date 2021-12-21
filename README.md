@@ -16,7 +16,7 @@
 ``` 
 
 - In the root of the project run the command 
-`swift run <inputFile> <simulatedTime>`
+`cat <inputFile> | swift run Scheduler <simulatedTime>`
 	- inputFile is the file containing the information for the cron parser
 	- simulatedTime the simulated time to run the cron parser in format **HH:mm**
 	- Example:
@@ -25,7 +25,3 @@
 
 
 ## Notes
-
-This is my first time creating an executable swift project, so I don't meet the requirement of running the program using `cat input.txt | <how to run your solution> <simulated current time>
-`
-If having more time, I would have separated the file reader to its own class to test it properly.
